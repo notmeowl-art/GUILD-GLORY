@@ -805,6 +805,6 @@ if __name__ == "__main__":
         except FileNotFoundError:
             print("No accounts file found. Starting without preloaded accounts.")
 
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 50908))
 
     app.run(host="0.0.0.0", port=port, debug=False)
